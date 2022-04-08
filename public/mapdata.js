@@ -236,13 +236,13 @@ const MAPDATA = [
     ],
     extra: {
       scale: [1, 1, 10],
-      levels: [781, 900],
+      levels: [750, 910],
       minimap: [
-        [-2070, -2070],
-        [2270, 2270],
+        [-2032, -2032],
+        [2032, 2032],
       ],
-      hDim: [4033, 4033],
-      lOrigin: [-2016, -2016],
+      hDim: [4065, 4065],
+      lOrigin: [-2032, -2032],
     },
 
   },
@@ -309,7 +309,7 @@ const MAPDATA = [
     },
   },
   {
-    name: "Kohat Toi River Valley",
+    name: "Kohat Toi",
     url: "/maps/kohat/{z}_{x}_{y}.jpg",
     heightmap: {
       url: "/heightmaps/kohat.jpg",
@@ -613,7 +613,7 @@ const MAPDATA = [
     ],
     extra: {
       scale: [1, 1, 4],
-      levels: [70, 753],
+      levels: [0, 910],
       minimap: [
         [-3302, -3302],
         [3048, 3048],
