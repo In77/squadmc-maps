@@ -22,13 +22,13 @@ const MAPDATA = [
     extra: { // extra information taken from SquadSDK and exported heightmap, used to scale + crop heightmaps
       // check printMapExtras() function for more information
       scale: [1, 1, 0.1], // x, y & z scale from SquadSDK (in meters)
-      levels: [2123, 4417],
+      levels: [1717, 7117],
       minimap: [ // taken from blueprints in SquadSDK
-        [-1600, -1600],
-        [1600, 1600],
+        [-1520, -1520],
+        [1520, 1520],
       ],
-      hDim: [4065, 4065], // dimensions of exported heightmap
-      lOrigin: [-2032, -2032], // origin of landscape in SquadSDK (sometimes extracted by placing actor in corner)
+      hDim: [3049, 3049], // dimensions of exported heightmap
+      lOrigin: [-1524, -1524], // origin of landscape in SquadSDK (sometimes extracted by placing actor in corner)
     },
   },
 {
