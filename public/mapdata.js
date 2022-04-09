@@ -22,7 +22,7 @@ const MAPDATA = [
     extra: { // extra information taken from SquadSDK and exported heightmap, used to scale + crop heightmaps
       // check printMapExtras() function for more information
       scale: [1, 1, 0.1], // x, y & z scale from SquadSDK (in meters)
-      levels: [1717, 7117],
+      levels: [2787, 4059],
       minimap: [ // taken from blueprints in SquadSDK
         [-1520, -1520],
         [1520, 1520],
