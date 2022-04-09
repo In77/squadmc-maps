@@ -443,6 +443,26 @@ const MAPDATA = [
     },
   },
   {
+    name: "Manic-5",
+    url: "/maps/manic-5/{z}_{x}_{y}.jpg",
+    heightmap: {
+      url: "/heightmaps/manic-5.jpg",
+      tile: "/heightmaps/manic-5/{z}_{x}_{y}.jpg",
+    },
+    locations: [],
+    extra: {
+      scale: [1, 1, 3],
+      levels: [460, 3120],
+      minimap: [
+        [-2017, -2017],
+        [2015, 2015],
+      ],
+      hDim: [4065, 4065],
+      lOrigin: [-2032, -2032],
+    },
+  
+  },
+  {
     name: "Mestia",
     url: "/maps/mestia/{z}_{x}_{y}.jpg",
     heightmap: {
