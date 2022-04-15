@@ -29,12 +29,12 @@ const MAPDATA = [
     locations: [],
     extra: {
       scale: [0.75, 0.75, 0.45],
-      levels: [1784, 6867],
+      levels: [1775, 6880],
       minimap: [
         [-2040, -2040],
         [1020, 1020],
       ],
-      hDim: [4096, 4096],
+      hDim: [4081, 4081],
       lOrigin: [-2040, -2040],
     },
   },
