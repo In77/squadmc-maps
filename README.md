@@ -1,18 +1,7 @@
-# squadmc-maps
-repository for [SquadMC](https://github.com/Endebert/squadmc) holding the only the map image files. Also includes maps for PostScriptumMC.
+# squadmc-maps 
 
-# Usage
+This forked repo is used for holding the mapdatas for this [SquadMC](http://47.96.92.77:8001/) site located in Hangzhou, China.
 
-SquadMC works with external maps hosted on maps.squadmc.ende.pro. However, if you wish to host and serve them locally, follow these steps:
+# 
 
- 0. `npm install -g yarn`
- 1. `yarn install`
- 2. `yarn run mapdata`
- 3. `yarn run serve`
- 4. adapt the baseUrl variable in the squadmc repository (`squadmc/src/App.vue`), to whatever `http-server` tells you
- 
- # Adding new maps
- 
- To learn how to add new maps to this repository yourself, please check out this wiki page: https://github.com/Endebert/squadmc-maps/wiki/How-to-add-new-maps-to-SquadMC
- 
- I'm looking forward to your contributions!
+See this [branch](https://github.com/eternitymoe/squadmc-maps/tree/feat/update_gorodok_yeho_and_add_goosebay_manic5) for data update works.
