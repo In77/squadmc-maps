@@ -1,6 +1,6 @@
 # squadmc-maps 
 
-This forked repo is used for holding the mapdatas for this [SquadMC](http://47.96.92.77:8001/) site located in Hangzhou, China.
+This forked repo is used for holding the mapdatas for this [SquadMC](http://pjp.foreconclub.com/) site hosted by CN FORECON clan.
 
 # 
 
