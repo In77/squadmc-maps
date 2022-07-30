@@ -232,19 +232,16 @@ const MAPDATA = [
       url: "/heightmaps/jensens.jpg",
       tile: "/heightmaps/jensens/{z}_{x}_{y}.jpg",
     },
-    locations: [
-      ["US Main", [336, 800]],
-      ["Vehicles", [599, 977]],
-    ],
+    locations: [],
     extra: {
-      scale: [1.5, 1.5, 0.15],
-      levels: [431, 10000],
+      scale: [1.0, 1.0, 1.0],
+      levels: [4668, 5582],
       minimap: [
-        [-723, -544],
-        [788, 965],
+        [-2040, -2040],
+        [2040, 2040],
       ],
-      hDim: [1009, 1009],
-      lOrigin: [-723, -544],
+      hDim: [4081, 4081],
+      lOrigin: [-2040, -2040],
     },
 
   },
