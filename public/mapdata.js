@@ -177,6 +177,25 @@ const MAPDATA = [
     },
   },
   {
+    name: "Goosebay",
+    url: "/maps/goosebay/{z}_{x}_{y}.jpg",
+    heightmap: {
+      url: "/heightmaps/goosebay.jpg",
+      tile: "/heightmaps/goosebay/{z}_{x}_{y}.jpg",
+    },
+    locations: [],
+    extra: {
+      scale: [1, 1, 0.4],
+      levels: [0, 5845],
+      minimap: [
+        [-2017, -2017],
+        [2015, 2015],
+      ],
+      hDim: [4065, 4065],
+      lOrigin: [-2032, -2032],
+    },
+  },
+  {
     name: "Gorodok",
     url: "/maps/gorodok/{z}_{x}_{y}.jpg",
     heightmap: {
@@ -203,27 +222,6 @@ const MAPDATA = [
       hDim: [4065, 4065],
       lOrigin: [-2032, -2032],
     },
-
-  },
-  {
-    name: "Goosebay",
-    url: "/maps/goosebay/{z}_{x}_{y}.jpg",
-    heightmap: {
-      url: "/heightmaps/goosebay.jpg",
-      tile: "/heightmaps/goosebay/{z}_{x}_{y}.jpg",
-    },
-    locations: [],
-    extra: {
-      scale: [1, 1, 0.4],
-      levels: [0, 5845],
-      minimap: [
-        [-2017, -2017],
-        [2015, 2015],
-      ],
-      hDim: [4065, 4065],
-      lOrigin: [-2032, -2032],
-    },
-  
   },
   {
     name: "Jensen's Range",
@@ -243,7 +241,6 @@ const MAPDATA = [
       hDim: [4081, 4081],
       lOrigin: [-2040, -2040],
     },
-
   },
   {
     name: "Kamdesh Highlands",
