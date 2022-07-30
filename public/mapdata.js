@@ -177,7 +177,7 @@ const MAPDATA = [
     },
   },
   {
-    name: "Goosebay",
+    name: "Goose Bay",
     url: "/maps/goosebay/{z}_{x}_{y}.jpg",
     heightmap: {
       url: "/heightmaps/goosebay.jpg",
