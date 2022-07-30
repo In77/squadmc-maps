@@ -514,7 +514,25 @@ const MAPDATA = [
       hDim: [4033, 4033],
       lOrigin: [-2016, -2016],
     },
-
+  },
+  {
+    name: "Pacific Proving Grounds",
+    url: "/maps/pacificprovinggrounds/{z}_{x}_{y}.jpg",
+    heightmap: {
+      url: "/heightmaps/pacificprovinggrounds.jpg",
+      tile: "/heightmaps/pacificprovinggrounds/{z}_{x}_{y}.jpg",
+    },
+    locations: [],
+    extra: {
+      scale: [1.0, 1.0, 0.255],
+      levels: [0, 10000],
+      minimap: [
+        [-2016, -2016],
+        [2016, 2016],
+      ],
+      hDim: [4033, 4033],
+      lOrigin: [-2016, -2016],
+    },
   },
   {
     name: "Skorpo",
