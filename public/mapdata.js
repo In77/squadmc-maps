@@ -169,33 +169,6 @@ const MAPDATA = [
     },
   },
   {
-    name: "Operation First Light",
-    url: "/maps/forest/{z}_{x}_{y}.jpg",
-    heightmap: {
-      url: "/heightmaps/forest.jpg",
-      tile: "/heightmaps/forest/{z}_{x}_{y}.jpg",
-    },
-    locations: [
-      ["Militia Main", [139, 852]],
-      ["Railroad Village", [469, 882]],
-      ["The Castle", [352, 502]],
-      ["Storage Site", [632, 375]],
-      ["Nirem Village", [870, 458]],
-      ["Rail Docks", [788, 773]],
-      ["US Main", [1049, 767]],
-    ],
-    extra: {
-      scale: [0.5, 0.5, 0.08],
-      levels: [3069, 10000],
-      minimap: [
-        [-1100, -1100],
-        [100, 100],
-      ],
-      hDim: [2017, 2017],
-      lOrigin: [-1100, -1100],
-    },
-  },
-  {
     name: "Goose Bay",
     url: "/maps/goosebay/{z}_{x}_{y}.jpg",
     heightmap: {
