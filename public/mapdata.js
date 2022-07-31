@@ -65,6 +65,25 @@ const MAPDATA = [
     },
   },
   {
+    name: "Black Coast",
+    url: "/maps/blackcoast/{z}_{x}_{y}.jpg",
+    heightmap: {
+      url: "/heightmaps/blackcoast.jpg",
+      tile: "/heightmaps/blackcoast/{z}_{x}_{y}.jpg",
+    },
+    locations: [],
+    extra: {
+      scale: [1.004, 1.004, 0.8],
+      levels: [4668, 5582],
+      minimap: [
+        [-2300, -2127],
+        [2300, 2473],
+      ],
+      hDim: [2553, 7760],
+      lOrigin: [-2040, -2143],
+    },
+  },
+  {
     name: "Chora Valley",
     url: "/maps/chora/{z}_{x}_{y}.jpg",
     heightmap: {
