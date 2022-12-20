@@ -216,6 +216,25 @@ const MAPDATA = [
     },
   },
   {
+    name: "Harju",
+    url: "/maps/harju/{z}_{x}_{y}.jpg",
+    heightmap: {
+      url: "/heightmaps/harju.jpg",
+      tile: "/heightmaps/harju/{z}_{x}_{y}.jpg",
+    },
+    locations: [],
+    extra: {
+      scale: [1.0, 1.0, 1.0],
+      levels: [620, 2300],
+      minimap: [
+        [-2016, -2015],
+        [2016, 2016],
+      ],
+      hDim: [4033, 4032],
+      lOrigin: [-2016, -2015],
+    },
+  },
+  {
     name: "Jensen's Range",
     url: "/maps/jensens/{z}_{x}_{y}.jpg",
     heightmap: {
