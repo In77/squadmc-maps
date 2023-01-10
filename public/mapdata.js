@@ -65,6 +65,25 @@ const MAPDATA = [
     },
   },
   {
+    name: "Black Coast",
+    url: "/maps/blackcoast/{z}_{x}_{y}.jpg",
+    heightmap: {
+      url: "/heightmaps/blackcoast.jpg",
+      tile: "/heightmaps/blackcoast/{z}_{x}_{y}.jpg",
+    },
+    locations: [],
+    extra: {
+      scale: [1.004, 1.004, 0.8],
+      levels: [4668, 5582],
+      minimap: [
+        [-2300, -2127],
+        [2300, 2473],
+      ],
+      hDim: [2553, 7760],
+      lOrigin: [-2040, -2143],
+    },
+  },
+  {
     name: "Chora Valley",
     url: "/maps/chora/{z}_{x}_{y}.jpg",
     heightmap: {
@@ -150,30 +169,22 @@ const MAPDATA = [
     },
   },
   {
-    name: "Operation First Light",
-    url: "/maps/forest/{z}_{x}_{y}.jpg",
+    name: "Goose Bay",
+    url: "/maps/goosebay/{z}_{x}_{y}.jpg",
     heightmap: {
-      url: "/heightmaps/forest.jpg",
-      tile: "/heightmaps/forest/{z}_{x}_{y}.jpg",
+      url: "/heightmaps/goosebay.jpg",
+      tile: "/heightmaps/goosebay/{z}_{x}_{y}.jpg",
     },
-    locations: [
-      ["Militia Main", [139, 852]],
-      ["Railroad Village", [469, 882]],
-      ["The Castle", [352, 502]],
-      ["Storage Site", [632, 375]],
-      ["Nirem Village", [870, 458]],
-      ["Rail Docks", [788, 773]],
-      ["US Main", [1049, 767]],
-    ],
+    locations: [],
     extra: {
-      scale: [0.5, 0.5, 0.08],
-      levels: [3069, 10000],
+      scale: [1, 1, 0.4],
+      levels: [0, 5845],
       minimap: [
-        [-1100, -1100],
-        [100, 100],
+        [-2017, -2017],
+        [2015, 2015],
       ],
-      hDim: [2017, 2017],
-      lOrigin: [-1100, -1100],
+      hDim: [4065, 4065],
+      lOrigin: [-2032, -2032],
     },
   },
   {
@@ -203,27 +214,25 @@ const MAPDATA = [
       hDim: [4065, 4065],
       lOrigin: [-2032, -2032],
     },
-
   },
   {
-    name: "Goosebay",
-    url: "/maps/goosebay/{z}_{x}_{y}.jpg",
+    name: "Harju",
+    url: "/maps/harju/{z}_{x}_{y}.jpg",
     heightmap: {
-      url: "/heightmaps/goosebay.jpg",
-      tile: "/heightmaps/goosebay/{z}_{x}_{y}.jpg",
+      url: "/heightmaps/harju.jpg",
+      tile: "/heightmaps/harju/{z}_{x}_{y}.jpg",
     },
     locations: [],
     extra: {
-      scale: [1, 1, 0.4],
-      levels: [0, 5845],
+      scale: [1.0, 1.0, 1.0],
+      levels: [620, 2300],
       minimap: [
-        [-2017, -2017],
-        [2015, 2015],
+        [-2016, -2015],
+        [2016, 2016],
       ],
-      hDim: [4065, 4065],
-      lOrigin: [-2032, -2032],
+      hDim: [4033, 4032],
+      lOrigin: [-2016, -2015],
     },
-  
   },
   {
     name: "Jensen's Range",
@@ -232,21 +241,17 @@ const MAPDATA = [
       url: "/heightmaps/jensens.jpg",
       tile: "/heightmaps/jensens/{z}_{x}_{y}.jpg",
     },
-    locations: [
-      ["US Main", [336, 800]],
-      ["Vehicles", [599, 977]],
-    ],
+    locations: [],
     extra: {
-      scale: [1.5, 1.5, 0.15],
-      levels: [431, 10000],
+      scale: [1.0, 1.0, 1.0],
+      levels: [4668, 5582],
       minimap: [
-        [-723, -544],
-        [788, 965],
+        [-2040, -2040],
+        [2040, 2040],
       ],
-      hDim: [1009, 1009],
-      lOrigin: [-723, -544],
+      hDim: [4081, 4081],
+      lOrigin: [-2040, -2040],
     },
-
   },
   {
     name: "Kamdesh Highlands",
@@ -517,7 +522,25 @@ const MAPDATA = [
       hDim: [4033, 4033],
       lOrigin: [-2016, -2016],
     },
-
+  },
+  {
+    name: "Pacific Proving Grounds",
+    url: "/maps/pacificprovinggrounds/{z}_{x}_{y}.jpg",
+    heightmap: {
+      url: "/heightmaps/pacificprovinggrounds.jpg",
+      tile: "/heightmaps/pacificprovinggrounds/{z}_{x}_{y}.jpg",
+    },
+    locations: [],
+    extra: {
+      scale: [1.0, 1.0, 0.255],
+      levels: [0, 10000],
+      minimap: [
+        [-2016, -2016],
+        [2016, 2016],
+      ],
+      hDim: [4033, 4033],
+      lOrigin: [-2016, -2016],
+    },
   },
   {
     name: "Skorpo",

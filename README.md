@@ -1,5 +1,5 @@
 # squadmc-maps
-repository for [SquadMC](https://github.com/Endebert/squadmc) holding the only the map image files. Also includes maps for PostScriptumMC.
+This forked repo is used for holding the [mapdata](http://ssrgaming.club:32101/) for this [copy](http://squadmc.ssrgaming.club/) of [SquadMC](https://github.com/Endebert/squadmc).
 
 # Usage
 
